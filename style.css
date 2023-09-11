@@ -1,0 +1,180 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+.container {
+  background-color: #438e96;
+  padding: 20px;
+  /* height: 500px; */
+  /* width: 80%; */
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  border-bottom: 3px solid #333;
+  padding-bottom: 10px;
+}
+
+.item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px;
+  /* height: 100px; */
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-1 {
+  background-color: red;
+}
+.item-2 {
+  background-color: green;
+}
+
+.item-3 {
+  background-color: blue;
+}
+
+.item-4 {
+  background-color: yellow;
+}
+
+.item-5 {
+  background-color: orange;
+}
+
+.item-6 {
+  background-color: #dadee2;
+}
+
+.item-7 {
+  background-color: #333;
+}
+
+.item-8 {
+  background-color: #fff;
+}
+
+.item-9 {
+  background-color: pink;
+}
+
+.item-10 {
+  background-color: violet;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.main-center {
+  justify-content: center;
+}
+
+.main-start {
+  justify-content: flex-start;
+}
+
+.main-end {
+  justify-content: flex-end;
+}
+
+.main-space-between {
+  justify-content: space-between;
+}
+
+.main-space-around {
+  justify-content: space-around;
+}
+
+.main-space-evenly {
+  justify-content: space-evenly;
+}
+
+.cross-start {
+  align-items: start;
+}
+
+.cross-end {
+  align-items: end;
+}
+
+.cross-center {
+  align-items: center;
+}
+
+.cross-space-between {
+  align-items: space-between;
+}
+
+.cross-space-evenly {
+  align-items: space-evenly;
+}
+
+.cross-space-around {
+  align-items: space-around;
+}
+
+.cross-baseline {
+  align-items: baseline;
+}
+
+.h-500 {
+  height: 500px;
+}
+.h-800 {
+  height: 800px;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.cross-content-center {
+  align-content: center;
+}
+
+.cross-content-center
